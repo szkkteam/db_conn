@@ -1,0 +1,15 @@
+from pypika import Table
+
+player_lineups = Table('player_lineups')
+lineups = Table('lineups')
+managers = Table('managers')
+odds = Table('odds')
+statistics = Table('match_statistics')
+matches = Table('matches')
+players_stats = Table('player_stats')
+players = Table('players')
+referees = Table('referees')
+seasons = Table('seasons')
+stadiums = Table('stadiums')
+teams = Table('teams')
+tournaments = Table('tournaments')
